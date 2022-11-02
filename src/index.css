@@ -1,0 +1,77 @@
+body {
+  font-family: sans-serif;
+  background:  rgba(212, 9, 94, 0.2);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.app-container {
+  height: 600px;
+  width: 500px;
+  background: #2b1c58;
+  border-radius: 30px;
+  box-shadow: 10px 10px 38px 0px rgba(0, 0, 0, 0.75);
+}
+
+.temperature-display-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+}
+
+.temperature-display {
+  display: flex;
+  border-radius: 50%;
+  color: #ffffff;
+  height: 320px;
+  width: 320px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 58px;
+  border: 3px #b388ff solid;
+  transition: background 0.5s;
+}
+
+button {
+  border-radius: 100px;
+  height: 90px;
+  width: 90px;
+  font-size: 42px;
+  color: #ffffff;
+  background: #546e7a;
+  border: 2px #ffffff solid;
+}
+
+button:hover {
+  background: rgb(179, 136, 136);
+  cursor: pointer;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.neutral {
+  background: rgb(184, 184, 184);
+}
+
+.cold {
+  background: #2196f3;
+}
+
+.hot {
+  background: #b71c1c;
+}
